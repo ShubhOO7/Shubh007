@@ -1,0 +1,122 @@
+.container2 {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    height: 1400px;
+}
+.part1{
+    background-color: #7510f4;
+    width: 100%;
+    height: 700px;
+    position: absolute;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+.part2{
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 300px;
+    /* position: absolute; */
+}
+.float{
+    background-color: #a15cfa;
+    width: 85%;
+    height: 852px;
+    position: relative;
+    top: 2rem;
+    left:50%; 
+    right:50%; 
+    transform: translate(-50%, 50%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+}
+.float1{
+    width: 100%;
+    height: 100%;
+    background-color:  #7710f4c2;
+    border-top-left-radius: 28px;
+    border-bottom-left-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    border: solid 1px #fff;
+    color: rgba(255, 255, 255, 0.637);
+
+}
+.float2{
+    color: rgba(255, 255, 255, 0.637);
+    width: 100%;
+    height: 100%;
+    border: solid 1px #fff;
+    background-color:  #7710f4c2;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+.float3{
+    color: rgba(255, 255, 255, 0.637);
+    width: 100%;
+    height: 100%;
+    border: solid 1px #fff;
+    background-color:  #7710f4c2;
+    border-top-right-radius: 28px;
+    border-bottom-right-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 768px) {
+    .float{
+        flex-direction: column;
+        top: -20rem;
+        height: 1900px;
+        border-top-right-radius: 28px;
+        border-bottom-right-radius: 28px;
+        border-top-left-radius: 28px;
+        border-bottom-left-radius: 28px;
+    }
+    .part1{
+        height: 800px;
+    }
+    .float1{
+        border-top-right-radius: 28px;
+        border-bottom-left-radius: 0px;
+    }
+    .float3{
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 28px;
+    }
+    .container2 {
+        text-align: center;
+        height: 2600px;
+    }
+}
+
+
+.title1{
+    margin: 8rem 3rem 2rem 3rem;
+    font-size: 35px;
+    width: 80%;
+    color : #fff;
+}
+.description1{
+    margin: 1rem 3rem 10rem 3rem;
+    font-size: 20px;
+    width: 57%;
+    color : #fff;
+}
